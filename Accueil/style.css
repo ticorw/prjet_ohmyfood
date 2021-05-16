@@ -7,11 +7,10 @@ body{
 
 /* Font-size */
 p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 h2{
-    font-size: 2.3rem;
-    padding: 25px;
+    font-size: 3rem;
 }
 a{
     text-decoration: none;
@@ -23,7 +22,7 @@ IMG.logo {
     margin-left: auto;
     margin-right: auto;
     margin-top: 45px;
-    width: 45%;
+    width: 42%;
 }
 
 /* Section 1 */
@@ -39,18 +38,18 @@ section.section1 {
 .section1_box1{
     background-color:  rgb(219, 219, 219);
     padding: 17px 0;
-    box-shadow: inset 1px 8px rgb(217, 190, 190);
+    box-shadow: inset 1px 8px 25px rgb(217, 190, 190);
     color: black;
 }
 
 .section1_box2{
-    padding: 50px 8%;
+    padding: 50px 25px;
 }
 
-button{
-    width: 550px;
-    height: 125px;
-    font-size: 2.5rem;
+input{
+    width: 475px;
+    height: 120px;
+    font-size: 2.4em;
     background:linear-gradient( #FF79DA, #9356DC );
     border-radius: 70px;
     border: none;
@@ -63,5 +62,42 @@ button{
 /* section 2 */
 
 section.section2{
-    padding: 8px;
+    padding: 50px;
+}
+
+.bouton_fonctionnement{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    width: 800px;
+    height: 150px;
+    background-color: rgba(247, 247, 247, 0.897);
+    border-radius: 50px;
+    box-shadow:2px 2px 25px rgb(212, 212, 212);
+    padding-top: 15px ;
+    padding-left: 87px;
+}
+.bouton_fonctionnement:active{
+    background-color:#eec7ff;
+}
+.fonctionnement_nombre p{
+    display: block;
+    position: absolute;
+    text-align: center;
+    background: #9356dc;
+    color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: -105px;
+    padding-top: 2px;
+    padding-right: 2px;
+
+}
+.bouton_fonctionnement p{
+    font-size: 2.5rem;
+}
+
+i{
+    color: gray;
 }
