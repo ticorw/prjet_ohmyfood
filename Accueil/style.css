@@ -15,7 +15,13 @@ h2{
 a{
     text-decoration: none;
 }
+a:visited{
+    color: black;
+}
 /* HEADER */
+header{
+    margin-bottom: 25px;
+}
 
 IMG.logo {
     display: block;
@@ -26,17 +32,14 @@ IMG.logo {
 }
 
 /* Section 1 */
-section{
-    margin: 15px 0;
-}
 
 section.section1 {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(245, 245, 245);
     text-align: center;
 }
 
 .section1_box1{
-    background-color:  rgb(219, 219, 219);
+    background-color:  rgb(236, 236, 236);
     padding: 17px 0;
     box-shadow: inset 1px 8px 25px rgb(217, 190, 190);
     color: black;
@@ -58,6 +61,8 @@ input{
     cursor: pointer;
     margin: 45px;
 }
+input:hover{
+    filter: brightness(115%);}
 
 /* section 2 */
 
@@ -100,4 +105,144 @@ section.section2{
 
 i{
     color: gray;
+}
+/* SECTION 3*/
+
+.section3{
+    background-color: rgb(236, 236, 236);
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.section3 h2{
+    padding-left: 50px;
+}
+
+.main_resto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carte_restaurant{
+    width: 870px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    box-shadow: 10px 10px 10px rgb(233, 233, 233);
+}
+
+.txt_resto{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    font-size: 4rem;
+    background-color: white;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.txt_resto p{
+    font-size: 3rem;
+}
+
+.coeur{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.coeur:hover{
+    color:linear-gradient( #FF79DA, #9356DC );
+}
+
+.img_resto1{
+    background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 485px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.img_resto2{
+    background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 485px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+
+}
+
+.img_resto3{
+    background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 485px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+
+}
+
+.img_resto4{
+    background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 485px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+
+}
+
+.nouveau{
+    display: block;
+    background-color: #99E2D0;
+    color: #1cad87;
+    border-radius: 8px;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    margin-left: 585px;
+}
+
+.nouveau p{
+    font-size: 2.7rem;
+    align-items: center;
+    padding-top: 12px;
+}
+/* FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    padding-left: 60px;
+}
+footer h2{
+    font-weight: normal;
+    font-family: 'Shrikhand', cursive;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+}
+
+footer i{
+    color: white;
+    font-size: 2.3rem;
+    margin-right: 15px;
 }
