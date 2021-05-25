@@ -1,0 +1,27 @@
+/* FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    padding-left: 60px;
+}
+footer h2{
+    font-weight: normal;
+    font-family: 'Shrikhand', cursive;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+}
+
+footer i{
+    color: white;
+    font-size: 2.3rem;
+    margin-right: 15px;
+}
