@@ -241,6 +241,9 @@ footer a{
     color: white;
     font-size: 3rem;
 }
+footer a:visited{
+    color: white;
+}
 
 footer i{
     color: white;

@@ -1,3 +1,125 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Font-size */
+p{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+/* HEADER */
+header{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+IMG.logo {
+    margin-left: 20%;
+    margin-top: 45px;
+    width: 42%;
+}
+header i{
+    font-size: 3rem;
+    display: block;
+    margin-top: 45px;
+    color: rgb(66, 66, 66);
+}
+
+/* section */
+
+.img_menu1{
+    background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 620px;
+}
+
+.contenu{
+    background-color: rgb(238, 238, 238);
+    margin-top: -85px;
+    padding: 37px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.contenu h2{
+    font-weight: normal;
+    font-family: 'Shrikhand', cursive;
+    font-size: 4rem;
+}
+
+.contenu h3{
+    font-weight: normal;
+    color: rgb(100, 100, 100);
+
+}
+.carte_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px ;
+    border-radius: 30px;
+}
+
+.carte_menu p {
+    font-size: 2.4rem;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.carte_menu p strong{
+    font-size: 2.6rem;
+}
+.prix{
+    padding-top: 45px;
+
+}
+.souligner_vert{
+    width: 90px;
+    border: solid 4px #99E2D0;
+    margin-top: -25px;
+}
+
+article{
+    margin-top: 100px;
+}
+
+input{
+    display: block;
+    position: relative;
+    margin: 125px auto 185px auto;
+    width: 475px;
+    height: 120px;
+    font-size: 2.4em;
+    background:linear-gradient( #FF79DA, #9356DC );
+    border-radius: 70px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
 /* FOOTER */
 
 footer{
@@ -19,6 +141,10 @@ footer a{
     color: white;
     font-size: 3rem;
 }
+footer a:visited{
+    color: white;
+}
+
 
 footer i{
     color: white;
