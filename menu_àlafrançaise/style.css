@@ -30,7 +30,10 @@ header{
     flex-direction: row;
     margin-left: 10%;
 }
-
+.titre{
+    display: flex;
+    justify-content: space-between;
+}
 IMG.logo {
     margin-left: 20%;
     margin-top: 45px;
@@ -41,6 +44,13 @@ header i{
     display: block;
     margin-top: 45px;
     color: rgb(66, 66, 66);
+}
+.titre i{
+    font-size: 4rem;
+    display: block;
+    margin-top: 72px;
+    color: rgb(66, 66, 66);
+
 }
 
 /* section */
@@ -78,6 +88,8 @@ header i{
     width: 100%;
     height: 170px;
     background-color: white;
+    box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px ;
@@ -88,13 +100,42 @@ header i{
     font-size: 2.4rem;
     margin-left: 35px;
     margin-right: 35px;
+    transition: 2s;
 }
 .carte_menu p strong{
     font-size: 2.6rem;
 }
+.txt_menu{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .prix{
     padding-top: 45px;
 
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0px;
+    height: 100%;
+    background-color:#99E2D0 ;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:  30px;
+    overflow: hidden; 
+    transition: 0.4s; 
+}
+.carte_menu:hover .select {
+    width: 175px;
+}
+.carte_menu:hover .select i{
+    transform:rotate(360deg);
+}
+.select i{
+    color: white;
+    font-size: 4.2rem;
+    transition: 0.5s;
 }
 .souligner_vert{
     width: 90px;
@@ -118,7 +159,13 @@ input{
     border: none;
     color: white;
     text-decoration: none;
+    transition: 1s;
     cursor: pointer;
+}
+
+input:hover{
+    filter: brightness(135%);
+    text-shadow: 5px 5px 5px black ;
 }
 /* FOOTER */
 
@@ -149,4 +196,149 @@ footer i{
     color: white;
     font-size: 2.3rem;
     margin-right: 15px;
+}
+/* Animation open page */
+.anim_carte1{
+    animation: anim_carte1 200ms ease-in 100ms forwards;
+    transform: scale(0);
+}
+
+@keyframes anim_carte1{
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    } 
+
+    100% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.anim_carte2{
+    animation: anim_carte2 200ms ease-in 300ms forwards;
+    transform: scale(0);
+}
+
+@keyframes anim_carte2{
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    } 
+
+    100% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.anim_carte3{
+    animation: anim_carte3 200ms ease-in 500ms forwards;
+    transform: scale(0);
+}
+
+@keyframes anim_carte3{
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    } 
+
+    100% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.anim_carte4{
+    animation: anim_carte4 200ms ease-in 700ms forwards;
+    transform: scale(0);
+}
+
+@keyframes anim_carte4{
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    } 
+
+    100% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.anim_carte5{
+    animation: anim_carte5 200ms ease-in 900ms forwards;
+    transform: scale(0);
+}
+
+@keyframes anim_carte5{
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    } 
+
+    100% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.anim_carte6{
+    animation: anim_carte6 200ms ease-in 1100ms forwards;
+    transform: scale(0);
+}
+
+@keyframes anim_carte6{
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    } 
+
+    100% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.anim_carte7{
+    animation: anim_carte7 200ms ease-in 1300ms forwards;
+    transform: scale(0);
+}
+
+@keyframes anim_carte7{
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    } 
+
+    100% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.anim_carte8{
+    animation: anim_carte8 200ms ease-in 1500ms forwards;
+    transform: scale(0);
+}
+
+@keyframes anim_carte8{
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    } 
+
+    100% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.anim_carte9{
+    animation: anim_carte9 200ms ease-in 1700ms forwards;
+    transform: scale(0);
+}
+
+@keyframes anim_carte9{
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    } 
+
+    100% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
